@@ -11,7 +11,7 @@ form.addEventListener('submit', async function(e){
 
     const num = Math.floor(Math.random() * 50);
 
-    const res = await axios.get('http://api.giphy.com/v1/gifs/search', 
+    const res = await axios.get('https://api.giphy.com/v1/gifs/search', 
     {params: {
         q: searchTerm,
         api_key: '3EnHmzCFlrafQKf1eSjURN0YngCGnB6H'
